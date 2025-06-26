@@ -1,3 +1,4 @@
+"use strict";
 // const color = ["red", "green", "blue", "yellow", "purple"];
 // // var first = color[0]
 // // var second = color[1];
@@ -182,5 +183,162 @@
 // calculator(8,4,2,sub)
 
 
+
+
+// function greet (name, callback){
+//     console.log("hi" + name);
+//     callback();
+// }
+// function sayBye(){
+//     console.log("goodbye!")
+// }
+// greet ("nitin",sayBye);
+
+
+
+// function hlo(name,callback){
+//     console.log("hello" + name);
+//     callback();
+// }
+// hlo("nitin",function(){
+//     console.log("welcome to javascript!")
+// })
+
+
+
+
+
+
+// promise - resolve / fullfill ||| reject
+
+// let firstPromise = Promise((resolve , reject)=>{
+
+// })
+
+// this
+// let car = {
+//     brand : 'tata',
+//     model : 'kyun bataun',
+// }
+
+// let person = {
+//     firstname : 'nitin',
+//     lastname : 'rana',
+//     sayhello (){
+//         console.log(" hello! I am " + this.firstname + " and i have a " + car.brand + ' car ')
+//     }
+// }
+// person.sayhello()
+
+// let person ={
+//     name: 'nitin',
+//     age : 22,
+// }
+// console.log(person.name)
+
+// let person = new Object();
+// person.name = 'nitin rana'
+// person.age = 22
+
+// console.log(person.name, person.age)
+// console.log(person.age)
+
+// const apiKey = "your_api_key_here"; 
+
+// async function getWeather() {
+//   const city = document.getElementById("cityInput").value;
+  
+//   if (!city) {
+//     alert("Please enter a city name");
+//     return;
+//   }
+
+//   try {
+//     const response = await fetch(
+//       `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`
+//     );
+
+//     if (!response.ok) {
+//       throw new Error("City not found");
+//     }
+
+//     const data = await response.json();
+
+//     const output = `
+//       <h3>Weather in ${data.name}</h3>
+//       <p>Temperature: ${data.main.temp}°C</p>
+//       <p>Feels Like: ${data.main.feels_like}°C</p>
+//       <p>Condition: ${data.weather[0].description}</p>
+//       <p>Humidity: ${data.main.humidity}%</p>
+//       <p>Wind Speed: ${data.wind.speed} m/s</p>
+//     `;
+
+//     document.getElementById("output").innerHTML = output;
+
+//   } catch (error) {
+//     document.getElementById("output").innerHTML = `<p style="color:red;">${error.message}</p>`;
+//   }
+// }
+
+// const fruits = ["apple", "banana", "cherry"];
+
+// for (let fruit of fruits) {
+//   console.log(fruit);
+// }
+
+
+// const fruits = ['banana','apple','mango']
+// // for(let i=0;i<=fruit.length;i++){
+// //     console.log(fruit[i])
+// // }
+
+
+// for(const fruit of fruits){
+ 
+//     console.log(fruit)
+// } 
+
+// const user= 'nitn rana'
+// for(const letternikalo of user){
+//     console.log(letternikalo)
+   
+// }
+//  console.log(user)
+
+
+// var abc = ['nitin','rana','sharad', 'rana']
+
+// abc.forEach(function (value,index){
+//     console.log(index+ ":" + value)
+// }
+// )
+
+// let arr = [4,5,6,7]
+// let a = arr.map((value)=>{
+    
+//     // console.log(value)
+//     return value + 1
+    
+// })
+// console.log(a)
+
+// let arr= [1,2,4,6,7,90,11,3,23,]
+// let small =  arr.filter((a)=>{
+//     return a<12
+// })
+// console.log(small)
+
+
+// filter //
+// let l = [1,2,3,4,23,3121,121]
+// // const nitinkadata = l.filter((v,i){
+// //     if(v/2 == 0){
+// //         return v
+// //     }
+// // }) 
+    
+
+// let ans= l.reduce((total,v,i)=> total+v)
+// console.log(ans)
 
 
