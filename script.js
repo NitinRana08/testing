@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 // const color = ["red", "green", "blue", "yellow", "purple"];
 // // var first = color[0]
 // // var second = color[1];
@@ -340,5 +340,88 @@
 
 // let ans= l.reduce((total,v,i)=> total+v)
 // console.log(ans)
+
+
+
+
+
+// const number = [1,2,3]
+// // number.forEach((num)=>{
+// //     console.log(num * 2)
+
+// // })
+// const ans = number.map((numberAajaIdhar)=>{
+//     console.log(numberAajaIdhar * 2)
+// })
+// // console.log(nitin)
+
+
+
+
+// let nitin = [ 'nitin','rana','hello','20',"30","40"]
+// // let last = nitin.slice(0,2)
+// try{
+// console.log(last)
+// }catch(e){
+//     console.log("error aa raha h")
+
+// }
+// console.log(nitin.slice(0,3))
+
+// console.log(nitin)
+
+
+
+// let nitin = [ '0nitin','1rana','2hello','3.20',"4.30","40"]
+// console.log(nitin)
+// nitin.splice(1,2,'kya haal hai')
+// nitin.splice(4,0,'5th mai hoon tu nahi 40 wale')
+// console.log(nitin)
+// //nitin, kya haal hai / 20 / 30 /40
+
+// let arr = [10,20,30]
+// let last = arr.map((number)=>{
+//     return number *number
+
+// })
+// arr.map((number,index)=>{
+//     console.log(number + 1)
+//     console.log(index)
+// })
+
+
+
+// console.log(last
+
+// )
+
+
+// let arr = [10,20,30]
+// for ( let i = 0 ; i < arr.length; i++){
+//     console.log(arr[i]*2)
+// }
+// arr.map((number)=>{
+//     console.log(number*2)
+// })
+
+// let prices = [100, 250, 400];
+
+// // Add 18% tax
+// let finalPrices = 
+// prices.map(price =>  price + price * 0.18);
+
+// console.log(finalPrices); 
+
+
+
+// add 2 on every value
+// let num = [1,2,3,4]
+// let result  = num.map(n => n + 2)
+// console.log(result)
+
+
+let nitin= ['nitin','rana','sharad','RANA']
+let last = nitin.splice(2,0,'hi')
+console.log(last)
 
 
