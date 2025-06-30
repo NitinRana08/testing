@@ -342,7 +342,7 @@
 // console.log(ans)
 
 
-
+// console.log('nitn_line_345')
 
 
 // const number = [1,2,3]
@@ -420,8 +420,144 @@
 // console.log(result)
 
 
-let nitin= ['nitin','rana','sharad','RANA']
-let last = nitin.splice(2,0,'hi')
-console.log(last)
+// let nitin= ['nitin','rana','sharad','RANA']
+// let last = nitin.splice(2,0,'hi')
+// console.log(last)
 
 
+
+// satisfies
+// speechSynthesis
+// webkitURL
+// addEventListener
+// queueMicrotaskw
+
+// webkitURL
+
+// let  arr = [10,20,30]
+// let ansarrr = arr.map((Number)=>{
+//     return Number * Number
+// })
+// // console.log(ansarrr)
+
+// let anss = arr.map((Number)=>{
+//     console.log(number + 1)
+// })
+
+// let arr = [10,20,30,11,21,44,51]
+// let end = arr.filter((number)=>{
+//     if(number % 2 === 0 ){
+//         return true
+//     }else{
+//         return false
+//     }
+// })
+// console.log(end)
+
+
+
+// let nitin= [1,2,3,4,4]
+// let ans = nitin.filter((number)=>{
+//     return number % 2 === 0
+// })
+// console.log(ans)
+// // console.log(nitin)
+
+
+// let arr = [ 1,2,'nitin','rana',null]
+// let ans = arr.filter((value)=>{
+//     if(typeof(value)=== 'number'){
+//         console.log(value)
+//     }else {
+//         console.log()
+//     }
+// })
+// console.log(ans)
+// dont use console use return 
+
+
+
+// let nitin = [ 1,2,'nitin','rana',null]
+// let filter_arr = nitin.filter((value)=>{
+//     if(typeof(value) === 'string'){
+//         return true
+//     }else{
+//         return false
+//     }
+// })
+// console.log(filter_arr)
+
+
+//
+// let array = [ 10,20,30,40]
+// let ans = array.reduce((acc,curr)=>{
+//     return acc + curr;
+// },0)
+// console.log(ans)
+
+
+
+// let arr = [9,1,7,4,2,8]
+// arr.sort()
+// console.log(arr)
+
+// let nitin = [3,2,5,1,3,42,2]
+// let hello = nitin.toSorted((a,b)=>a-b);
+// console.log(hello)
+// let array = [3,32,42,4,23,13,543,5,4242,42,3,2,34,3,3,53,5464,4]
+
+// let nitinKAarray = array.sort((a,b)=> a-b );
+// console.log(nitinKAarray)
+//decending bbbb 
+// let arrr= [,233,5,63,4,5,63,4]
+// let sorting = arrr.toSorted((a,b)=>b-a)
+// console.log(sorting)
+
+
+// let ar = [12,34,43,42]
+
+// let lasr = ar.
+
+
+// let num = [3,12,44,24,35,245,35]
+// let result = num.find((number)=> number >10)
+// console.log(result)
+
+//-----------------------------------------
+// let user = [
+//     {id : 1, name:'nitin'},
+//     {id : 2, name:'ravi'},
+//     {id : 3, name:'ankit'}
+// ]
+
+// let fonundUSER = user.find((user)=> user.id === 2)
+// console.log(fonundUSER)
+
+
+
+
+//  let arr = [10,20,30]
+// //  arr.forEach((value,index)=>{
+// //     console.log("number: ",value, "index: ", index)
+// //  })
+//  let length = arr.length
+//  console.log(length)
+// for(let index = 0;index<arr.length;index++){
+//     console.log(arr[index])
+
+// let obj= {
+//     name: "ove",
+//     age:23,
+//     weigth: 85,
+//     height: 5.5,
+//     greet: function (){
+//         console.log("youoyyoyoy")
+//     }
+// }
+// for(let key in obj){
+//     console.log(key, " " , obj[key])
+// }
+
+
+// ChannelMergerNodeclg
+// ChannelMergerNodeclg
