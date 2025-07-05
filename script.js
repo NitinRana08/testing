@@ -561,3 +561,207 @@
 
 // ChannelMergerNodeclg
 // ChannelMergerNodeclg
+
+
+// let arr= [ 1,3,4,5]
+// let obj = new set(arr)
+// let hello = {
+//     name : "nitin",
+//     class : "bca"
+// }
+// console.log(hello.class)
+
+// let hello = new Object();
+// const first =  hello.name = 'nitin rana'
+// console.log(first)
+
+
+// class nitn{
+
+// }
+
+// let arr= [ 1,2,3,4,5,11111,11,1,1,1,,1,1,1]
+// let removeDuplicate = new Set([1,2,3,4,5,11111,11,1,1,1,,1,1,1])
+
+// console.log(removeDuplicate)
+
+// let nitin = [1,2,3]
+// function newAns(nitin){
+//     for(let i =0;i<nitin.length;i++){
+//         console.log(nitin[i]+1)
+//     }
+
+
+// }
+// console.log(nitin)
+
+
+// let arr= [1,2,3]
+// const add=(arr){
+
+// }
+
+
+// let arr = [ 1,2,3]
+
+// const addhojabb= (arr)=>{
+//     for(let i =0 ; i < arr.length;i++){
+//     //   console.log(arr[i]+1)
+//     arr[i] = arr[i]+1
+//     }
+
+// }
+
+
+// console.log(arr)
+
+
+
+
+
+
+
+// let number = [1,2,3]
+// let double = number.map(function(num){
+//     return num * 2
+
+// })
+// console.log(double)
+// console.log(number)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let PriceOfNtitinsProduct = [100,200,300]
+// let FinalPriceOfNtitinsProduct = PriceOfNtitinsProduct.map((price)=>{
+//     let tax = price * 0.18 
+//     return tax + price
+// })
+// console.log(FinalPriceOfNtitinsProduct)
+
+
+
+// let paisa = [100,200,300]
+// let gst = paisa.map(function (paisa){
+//     let VastuEvamSevaKar = paisa * 0.18
+//     console.log("aakhri paisa",paisa+VastuEvamSevaKar)
+
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+// try{
+// throw new error("hey yo yo")
+// }catch(e){
+//     console/log("ignored")
+// }
+// const nitin = 5
+// if(nitin>0){
+//     console.log("yes")
+// }else{
+//     console.log('no')
+// }
+
+// const nitin= ()=>{
+// let a= 4
+// let b = 3
+
+
+
+
+// return "hey ans is " + (a+b)
+// }
+// console.log(nitin())
+// setTimeout(()=>{
+//     console.log("hello nitin rana @therananitin")
+
+
+// },3000)
+// setTimeout(()=>{
+//     console.log("8130301362")
+
+
+// },6000)
+
+
+// try {
+//      console.log("kr_ke_dikha_run_code😝")
+
+// } catch (e) {
+//   console.log("💃 balle balle: " + e.message);
+// } finally {
+//   console.log("😎 Code done!");
+// }
+
+
+
+
+// setTimeout(()=>{
+//     console.log("hacking start")
+
+
+// },9000)
+// setTimeout(()=>{
+//     console.log("hacked succesfully")
+
+
+// },12000)
+
+
+
+
+
+// let PriceOfNtitinsProduct = [100,200,300]
+// let FinalPriceOfNtitinsProduct = PriceOfNtitinsProduct.map((price)=>{
+//     let tax = price * 0.18 
+//     return tax + price
+// })
+// console.log(FinalPriceOfNtitinsProduct)
+
+
+
+// let paisa = [100,200,300]
+// let gst = paisa.map(function (paisa){
+//     let VastuEvamSevaKar = paisa * 0.18
+//     console.log("aakhri paisa",paisa+VastuEvamSevaKar)
+
+// })
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
