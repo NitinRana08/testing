@@ -5,6 +5,8 @@
 // // var third = color[2];
 // // var forth = color[3]
 
+import { isValidElement } from "react"
+
 // const [first,second,third] = color;
 // const nitin = [x1,x2]=color
 // console.log(nitin)
@@ -757,11 +759,39 @@
 
 
 
+// class ERROR extends Error{
+
+
+// }
 
 
 
+// let checkAge = (age)=>{
+//     if(age<18){
+//         let error = new Error("you are under age go home")
+//         error.name = "Age Error"
+//         throw error
+//     }else{
+//         console.log("welcome to the gym bb")
+//     }
 
-//
+// }
+// try{
+// checkAge(1)
+// }catch(err){
+//     console.log("message = "+err.message)
+//     console.log("name = "+err.name)
+// }
 
 
 
+import { isValidEmail, isPasswordStrong } from './validation.js';
+const email= "nitinr8229@gmail.com";
+const password= "@therananitin";
+if (!isValidEmail(email)) {
+  console.log("❌ Invalid email");
+} else if (!isPasswordStrong(password)) {
+  console.log("❌ Password too weak");
+} else {
+  console.log("✅ Login successful!");
+}
