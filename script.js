@@ -892,9 +892,28 @@
 
 
 
-const nitinr = new Promise((resolve,reject)=>{
+// const nitinr = new Promise((resolve,reject)=>{
 
-  setTimeout(function saymyname(){
-    console.log("my name is nitin rana")
-  },5000)
-})
+//   setTimeout(function saymyname(){
+//     console.log("my name is nitin rana")
+//   },5000)
+// })
+
+
+
+// decument.get
+
+
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("jokeBTN").addEventListener("click", () => {
+    fetch("https://official-joke-api.appspot.com/random_joke")
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("joke").innerText = `${data.setup} 😂 ${data.punchline}`;
+      })
+      .catch(error => {
+        document.getElementById("joke").innerText = "Failed to load joke, sariiii 😢";
+        console.log("Here is the error:", error);
+      });
+  });
+});
