@@ -5,7 +5,7 @@
 // // var third = color[2];
 // // var forth = color[3]
 
-import { isValidElement } from "react"
+// import { isValidElement } from "react"
 
 // const [first,second,third] = color;
 // const nitin = [x1,x2]=color
@@ -785,13 +785,116 @@ import { isValidElement } from "react"
 
 
 
-import { isValidEmail, isPasswordStrong } from './validation.js';
-const email= "nitinr8229@gmail.com";
-const password= "@therananitin";
-if (!isValidEmail(email)) {
-  console.log("❌ Invalid email");
-} else if (!isPasswordStrong(password)) {
-  console.log("❌ Password too weak");
-} else {
-  console.log("✅ Login successful!");
-}
+// import { isValidEmail, isPasswordStrong } from './validation.js';
+// const email= "nitinr8229@gmail.com";
+// const password= "@therananitin";
+// if (!isValidEmail(email)) {
+//   console.log("❌ Invalid email");
+// } else if (!isPasswordStrong(password)) {
+//   console.log("❌ Password too weak");
+// } else {
+//   console.log("✅ Login successful!");
+// }
+
+
+// let calculator =(a,b)=>{
+//   return a+b
+// }
+
+// console.log(calculator(2,3))
+
+// const obj = {
+//   name:"nitin",
+//   rollno:22
+// }
+// const newObj = JSON.stringify(obj)
+// console.log(newObj)
+
+// const obj2 = JSON.parse(newObj)
+// console.log(obj2)
+
+
+// let jsontry={
+//   name:"nitin rana",
+//   class:"BCA",
+//   college: "GL BAJAJ"
+// }
+// console.log(jsontry)
+
+// let helloJSON = JSON.stringify(jsontry)
+// console.log(helloJSON)
+// let hello2JSON = JSON.parse(helloJSON)
+// console.log(hello2JSON)
+
+
+// let details = {
+//   name:"nitin rana",
+//   class:"BCA",
+//   college: "GL BAJAJ",
+//   location: "Greater Noida"
+
+// }
+
+// localStorage.setItem("person data",JSON.stringify(details))
+// console.log(localStorage)
+
+// let saved = JSON.parse(localStorage.getItem("details"))
+// console.log(saved)
+
+
+// import {greet} from './new.js'
+// greet()
+
+
+// import ('./new.js').then((module)=>{
+//   module.greet()
+// })
+
+
+
+// import {sayHI} from './new.js'
+// sayHI()
+
+
+// import ('./new.js').then(module=>{
+//   module.sayHI()
+// })
+
+
+// import {sum} from './new.js'
+// console.log(sum(2,1))
+
+
+// document.querySelector(".btn").addEventListener("click",()=>{
+//   // console.log(sum(2,1))
+//   import('./new.js').then((res)=>{
+//     console.log(res.default(3,2))
+//   }).catch((err)=>{
+//     console.log(err)
+//   })
+// })
+
+
+
+//
+
+// let nitin = new Promise((resolve,reject)=>{
+//   console.log("hello world")
+//   // reject(new Error("andurni dikkat"))
+//   resolve(96)
+// })
+// console.log("hellpo")
+
+// const nitin= ()=>{
+//   console.log("my name is nitin rana from hr")
+// }
+// setTimeout(nitin,5000)
+
+
+
+const nitinr = new Promise((resolve,reject)=>{
+
+  setTimeout(function saymyname(){
+    console.log("my name is nitin rana")
+  },5000)
+})
