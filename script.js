@@ -923,14 +923,32 @@
 // console.log(add(2,1))
 
 
-function greet(name){
-    console.log("hello, ",name)
+// function greet(name){
+//     console.log("hello, ",name)
+// }
+
+
+// function processUser(callback){
+//     const userName = "nitin rana"
+//     callback(userName)
+// }
+
+// processUser(greet)
+
+let lastname=((Lname)=>{
+    console.log(Lname,"rana")
+
+})
+
+function firstname (saveonme){
+    const name ="nitin"
+    saveonme(name)
 }
+firstname(lastname)
 
 
-function processUser(callback){
-    const userName = "nitin rana"
-    callback(userName)
-}
 
-processUser(greet)
+setTimeout(() => {
+    console.log("heloo")
+    
+}, 5000);
