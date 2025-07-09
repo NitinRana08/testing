@@ -904,16 +904,20 @@
 // decument.get
 
 
-window.addEventListener("DOMContentLoaded", () => {
-  document.getElementById("jokeBTN").addEventListener("click", () => {
-    fetch("https://official-joke-api.appspot.com/random_joke")
-      .then(response => response.json())
-      .then(data => {
-        document.getElementById("joke").innerText = `${data.setup} 😂 ${data.punchline}`;
-      })
-      .catch(error => {
-        document.getElementById("joke").innerText = "Failed to load joke, sariiii 😢";
-        console.log("Here is the error:", error);
-      });
-  });
-});
+// window.addEventListener("DOMContentLoaded",()=>{
+//   document.getElementById("jokeBTN").addEventListener('click',()=>{
+//     fetch("https://official-joke-api.appspot.com/random_joke")
+//   })
+// })
+
+
+//hello
+let a=2;
+let f=2;
+console.log(a+f)
+
+const add = (a,b)=>{
+  return a+b
+
+}
+console.log(add(2,1))
