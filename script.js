@@ -935,20 +935,38 @@
 
 // processUser(greet)
 
-let lastname=((Lname)=>{
-    console.log(Lname,"rana")
+// let lastname=((Lname)=>{
+//     console.log(Lname,"rana")
 
-})
+// })
 
-function firstname (saveonme){
-    const name ="nitin"
-    saveonme(name)
-}
-firstname(lastname)
+// function firstname (saveonme){
+//     const name ="nitin"
+//     saveonme(name)
+// }
+// firstname(lastname)
 
 
 
-setTimeout(() => {
-    console.log("heloo")
+// setTimeout(() => {
+//     console.log("heloo")
     
-}, 5000);
+// }, 5000);
+
+
+
+// function calculate(){
+
+// }
+
+
+
+let calculate=(a,b,callback)=>{
+    const result = a+b 
+    callback(result)
+
+}
+
+calculate(1,3,function(sum){
+    console.log("the sum is : ", sum)
+})
