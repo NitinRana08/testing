@@ -912,12 +912,25 @@
 
 
 //hello
-let a=2;
-let f=2;
-console.log(a+f)
+// let a=2;
+// let f=2;
+// console.log(a+f)
 
-const add = (a,b)=>{
-  return a+b
+// const add = (a,b)=>{
+//   return a+b
 
+// }
+// console.log(add(2,1))
+
+
+function greet(name){
+    console.log("hello, ",name)
 }
-console.log(add(2,1))
+
+
+function processUser(callback){
+    const userName = "nitin rana"
+    callback(userName)
+}
+
+processUser(greet)
