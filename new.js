@@ -15,8 +15,8 @@
 // export const sayDynamic = ()=>{
 //     console.log('helloooooooo my name is nitin')
 // }
-let sum =(a,b)=>{
-    return a+b
+// let sum =(a,b)=>{
+//     return a+b
     
-}
-export default sum
+// }
+// export default sum

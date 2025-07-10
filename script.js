@@ -961,12 +961,32 @@
 
 
 
-let calculate=(a,b,callback)=>{
-    const result = a+b 
-    callback(result)
+// let calculate=(a,b,callback)=>{
+//     const result = a+b 
+//     callback(result)
 
-}
+// }
 
-calculate(1,3,function(sum){
-    console.log("the sum is : ", sum)
-})
+// calculate(1,3,function(sum){
+//     console.log("the sum is : ", sum)
+// })
+
+
+// //
+
+
+// const obj = {
+//     name : "nitin rana",
+//     age : 22,
+//     sex: "male",
+//     location: 'delhi'
+// }
+// const storeit = JSON.stringify(obj)
+// localStorage.setItem("details",storeit)
+// console.log(storeit)
+
+
+const JSONSTringMAAL = `{"name":"sharad rana","age":21,"sex":"male","location":"greater noida"}`
+const savePARSE = JSON.parse(JSONSTringMAAL)
+localStorage.setItem("stingify se kiya gaya parse(code)jaisa",savePARSE)
+console.log(savePARSE)
