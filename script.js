@@ -986,7 +986,26 @@
 // console.log(storeit)
 
 
-const JSONSTringMAAL = `{"name":"sharad rana","age":21,"sex":"male","location":"greater noida"}`
-const savePARSE = JSON.parse(JSONSTringMAAL)
-localStorage.setItem("stingify se kiya gaya parse(code)jaisa",savePARSE)
-console.log(savePARSE)
+// const JSONSTringMAAL = `{"name":"sharad rana","age":21,"sex":"male","location":"greater noida"}`
+// const savePARSE = JSON.parse(JSONSTringMAAL)
+// localStorage.setItem("stingify se kiya gaya parse(code)jaisa",savePARSE)
+// console.log(savePARSE)
+
+
+
+// const link = `https://api.openweathermap.org/data/2.5/weather?q=${link}&appid=${apiKey}&units=metric`
+// const data =async()=>{
+//     console.log("here is your data bb")
+//     let response = await fetch(link)
+//     console.log(response)
+// }
+// data()
+
+const p1 =Promise.resolve("task 1 done")
+const p2 = Promise.reject("task 2 bekar")
+const p3 = Promise.resolve("task 3 done")
+async function showresult(){
+    const result = Promise.allSettled([p1,p2,p3])
+    console.log(result)
+}
+showresult()
