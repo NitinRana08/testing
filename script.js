@@ -1001,11 +1001,39 @@
 // }
 // data()
 
-const p1 =Promise.resolve("task 1 done")
-const p2 = Promise.reject("task 2 bekar")
-const p3 = Promise.resolve("task 3 done")
-async function showresult(){
-    const result = Promise.allSettled([p1,p2,p3])
-    console.log(result)
-}
-showresult()
+// const p1 = Promise.resolve("task 1 done")
+// const p2 = Promise.reject("task 2 bekar")
+// const p3 = Promise.resolve("task 3 done")
+// async function showresult(){
+//     const result = Promise.allSettled([p1,p2,p3])
+//     console.log(result)
+// }
+// showresult()
+
+// let fruits = "apple kiwi apple"
+// let finalFruits = fruits.replaceAll("kiwi","banana")
+// console.log(finalFruits)
+
+// let str = '1-2-3-4'
+// let set = str.replaceAll(/-/g,":")
+// console.log(set)
+
+// let userinput = "|  hello  world  |"
+// let makeClean = userinput.replaceAll("  "," ")
+// console.log(makeClean)
+
+//  let message = "Visit google.com and open google.com";
+// let formatted = message.replaceAll("google.com", "<a href='https://google.com'>google.com</a>");
+// console.log(formatted);
+
+
+//₹1,20,000 convert it to 120000
+
+// let price = "₹1,20,000"
+// let number = price.replaceAll(",","").replace("₹","")
+// console.log(number)
+
+// Hello! Are you #ready$ to @rock&?
+let data= "Hello! Are you #ready$ to @rock&?"
+let final = data.replaceAll(/[#$@&]/g,"")
+console.log(final)
