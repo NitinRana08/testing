@@ -1034,6 +1034,19 @@
 // console.log(number)
 
 // Hello! Are you #ready$ to @rock&?
-let data= "Hello! Are you #ready$ to @rock&?"
-let final = data.replaceAll(/[#$@&]/g,"")
-console.log(final)
+// let data= "Hello! Are you #ready$ to @rock&?"
+// let final = data.replaceAll(/[#$@&]/g,"")
+// // console.log(final)
+
+
+// let nitin = ()=>{
+//     console.log("hello my name is nitin rana")
+
+// }
+// nitin()
+
+
+// const arr = [1,2,3,4,4,4,2,4]
+// let NEWarr= arr.replaceall(4,69)
+// console.log(NEWarr)
+
