@@ -1086,8 +1086,57 @@
 //     }
 // }
 
-function add(a,b){
-    return a+b
-}
-console.log(add("so your answer is this ",2,1))
+// function add(a,b){
+//     return a+b
+// }hjkl;'
+// [;piouytr5e4w3q2    1AESRWAQ    `Q``]
+// // console.log(add("so your answer is this ",2,1))
 
+ 
+
+// function Person(fname,lname,contact){
+//     this.firstname = fname
+//     this.lastname=lname
+//     this.contact=contact
+
+//     this.getName = function(){
+//         console.log(this.firstname,this.lastname,this.contact)
+
+//     }
+// }
+
+// const p1 = new Person("nitin","rana",8130301362)
+// console.log(p1)
+
+
+// const p1 ={
+//     name:"nitin",
+//     lastname:"rana",
+//     number : 8130301362,
+//     getfullname(){
+//         // console.log(this.name,this.lastname)
+//        return `${this.name} ${this.lastname}`
+//     }
+  
+//     }
+
+
+// console.log(p1.getfullname())
+
+
+
+const p1 ={
+    name:"nitin",
+    lastname:"rana",
+    number : 8130301362,
+    mark: 80,
+    printmark: function (){
+        console.log(this.name,this.lastname,this.mark)
+
+    }
+    
+
+   
+
+}
+console.log(p1)
