@@ -1050,4 +1050,44 @@
 // let NEWarr= arr.replaceall(4,69)
 // console.log(NEWarr)
 
-console.log("hey end day of Javascript, not JS only tutorial hell ,i just hate this tutorial hell man")
+// console.log("hey end day of Javascript, not JS only tutorial hell ,i just hate this tutorial hell man")
+
+// function Person(name) {
+//   this.name = name;
+// }
+
+// Person.prototype.sayHello = function() {
+//   console.log("Hello, I am " + this.name);
+// };
+
+// const p1 = new Person("Nitin");
+
+// p1.sayHello(); 
+
+
+// const greet=(name)=>{
+//     console.log("hello",name)
+// }
+// greet("Nitin Rana")
+
+// let greet=(firstname,lastname)=>{
+// console.log("full name",firstname,lastname)
+// } 
+// greet("nitin",'rana')finction 
+// function greet(name){
+//     console.log("hello", name)
+// }
+// greet('nitin rana')
+
+
+// class add{
+//     function add(a,b,sum) {
+//        return sum=a+b
+//     }
+// }
+
+function add(a,b){
+    return a+b
+}
+console.log(add("so your answer is this ",2,1))
+
