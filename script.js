@@ -1050,3 +1050,4 @@
 // let NEWarr= arr.replaceall(4,69)
 // console.log(NEWarr)
 
+console.log("hey end day of Javascript, not JS only tutorial hell ,i just hate this tutorial hell man")
