@@ -1143,11 +1143,22 @@
 
 
 //oops
-const student ={
-    fullname :'nitin rana',
-    age : 22,
-    printProper(){
-        console.log(`hello your full name is ${this.fullname} and your age is ${this.age}! all the. best`)
+// const student ={
+//     fullname :'nitin rana',
+//     age : 22,
+//     printProper(){
+//         console.log(`hello your full name is ${this.fullname} and your age is ${this.age}! all the. best`)
+//     }
+// }
+// console.log(student)
+
+
+const employee={
+    calcTax(){
+        console.log("tax rate is 10%")
     }
 }
-console.log(student.printProper())
+const nitin = {
+    salary: 50000,
+}
+nitin.__proto__ = employee
