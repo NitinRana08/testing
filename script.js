@@ -1125,18 +1125,29 @@
 
 
 
-const p1 ={
-    name:"nitin",
-    lastname:"rana",
-    number : 8130301362,
-    mark: 80,
-    printmark: function (){
-        console.log(this.name,this.lastname,this.mark)
+// const p1 ={
+//     name:"nitin",
+//     lastname:"rana",
+//     number : 8130301362,
+//     mark: 80,
+//     printmark: function (){
+//         console.log(this.name,this.lastname,this.mark)
 
-    }
+//     }
     
 
    
 
+// }
+// console.log(p1)
+
+
+//oops
+const student ={
+    fullname :'nitin rana',
+    age : 22,
+    printProper(){
+        console.log(`hello your full name is ${this.fullname} and your age is ${this.age}! all the. best`)
+    }
 }
-console.log(p1)
+console.log(student.printProper())
