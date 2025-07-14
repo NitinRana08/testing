@@ -1153,12 +1153,16 @@
 // console.log(student)
 
 
-const employee={
-    calcTax(){
-        console.log("tax rate is 10%")
-    }
-}
-const nitin = {
-    salary: 50000,
-}
-nitin.__proto__ = employee
+// const employee={
+//     calcTax(){
+//         console.log("tax rate is 10%")
+//     }
+// }
+// const nitin = {
+//     salary: 50000,
+// }
+// nitin.__proto__ = employee
+
+
+let arr = [ 1,2,3]
+console.log(arr)
