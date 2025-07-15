@@ -1164,5 +1164,19 @@
 // nitin.__proto__ = employee
 
 
-let arr = [ 1,2,3]
-console.log(arr)
+// let arr = [ 1,2,3]
+// console.log(arr)
+
+const employee = {
+    TAX (){
+        console.log("tax rate is 10%")
+    }
+
+}
+const nitinRana ={
+    salary: 22000
+    //prototype { tax rate is 10% }
+
+
+}
+nitinRana.__proto__=employee
