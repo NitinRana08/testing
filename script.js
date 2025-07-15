@@ -1216,13 +1216,26 @@
 
 
 
-const user = {
-    firstname: 'nitin ',
-    lastname : 'rana',
-    age: 22,
-    getAgeYear: function(){
-        return new Date().getFullYear() - user.age
-    }
+// const user = {
+//     firstname: 'nitin ',
+//     lastname : 'rana',
+//     age: 22,
+//     getAgeYear: function(){
+//         return new Date().getFullYear() - user.age
+//     }
 
+// }
+// console.log(user.getAgeYear())
+
+
+const employee = {
+    calTax (){
+        console.log("tax rate is 10%")
+    }
 }
-console.log(user.getAgeYear())
+const nitinSAl ={
+    salary : 45000
+}
+nitinSAl.__proto__ = employee
+
+console.log(nitinSAl)
