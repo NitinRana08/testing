@@ -1167,16 +1167,62 @@
 // let arr = [ 1,2,3]
 // console.log(arr)
 
-const employee = {
-    TAX (){
-        console.log("tax rate is 10%")
+// const employee = {
+//     TAX (){
+//         console.log("tax rate is 10%")
+//     }
+
+// }
+// const nitinRana ={
+//     salary: 22000
+//     //prototype { tax rate is 10% }
+
+
+// }
+// nitinRana.__proto__=employee
+
+// class BMW {
+//     start(){
+//         console.log("start")
+//     }
+//     stop(){
+//         console.log("stop")
+//     }
+// }
+// let bmw_Z4 = new BMW()
+
+
+// class toyotaCar{
+
+//     constructor(){
+
+//     }
+//     start(){
+//         console.log("start the engine")
+//     }
+//     stop(){
+//         console.log("Off the engine")
+//     }
+//     setBrand(brand){
+//         this.brand = brand
+//     }
+// }
+// let fortuner = new toyotaCar()
+// fortuner.setBrand("tarzer")
+
+// let Z4 = new toyotaCar()
+// Z4.setBrand('bmw')
+// console.log(Z4)
+
+
+
+const user = {
+    firstname: 'nitin ',
+    lastname : 'rana',
+    age: 22,
+    getAgeYear: function(){
+        return new Date().getFullYear() - user.age
     }
 
 }
-const nitinRana ={
-    salary: 22000
-    //prototype { tax rate is 10% }
-
-
-}
-nitinRana.__proto__=employee
+console.log(user.getAgeYear())
