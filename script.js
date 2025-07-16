@@ -1228,14 +1228,33 @@
 // console.log(user.getAgeYear())
 
 
-const employee = {
-    calTax (){
-        console.log("tax rate is 10%")
+// const employee = {
+//     calTax (){
+//         console.log("tax rate is 10%")
+//     }
+// }
+// const nitinSAl ={
+//     salary : 45000
+// }
+// nitinSAl.__proto__ = employee
+
+// console.log(nitinSAl)
+
+
+function createUser(name,goals){
+    return{
+        name,
+        goals,
+        checkin(){
+            console.log(`${this.name} Checked In ✅` )
+        },
+        viewGoals(){
+            console.log(`${this.name}'s goals: ${this.goals} `)
+        }
     }
 }
-const nitinSAl ={
-    salary : 45000
-}
-nitinSAl.__proto__ = employee
+const user =[
+createUser('nitin rana',"6 abs")
 
-console.log(nitinSAl)
+]
+console.log(user[0])
