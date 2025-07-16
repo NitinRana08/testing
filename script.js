@@ -1241,20 +1241,43 @@
 // console.log(nitinSAl)
 
 
-function createUser(name,goals){
-    return{
-        name,
-        goals,
-        checkin(){
-            console.log(`${this.name} Checked In ✅` )
-        },
-        viewGoals(){
-            console.log(`${this.name}'s goals: ${this.goals} `)
-        }
-    }
-}
-const user =[
-createUser('nitin rana',"6 abs")
+// function createUser(name,goals){
+//     return{
+//         name,
+//         goals,
+//         checkin(){
+//             console.log(`${this.name} Checked In ✅` )
+//         },
+//         viewGoals(){
+//             console.log(`${this.name}'s goals: ${this.goals} `)
+//         }
+//     }
+// }
+// const user =[
+// createUser('nitin rana',"6 abs")
 
-]
-console.log(user[0])
+// ]
+// console.log(user[0])
+
+
+
+// const gymfeatures = { 
+//    checkin (){
+//     console.log('checked in ✅')
+//    }
+
+
+// }
+// const nitin = { 
+//     name : 'nitin rana'
+// }
+
+// // nitin.__proto__ = gymfeatures
+
+// Object.setPrototypeOf(nitin,gymfeatures)
+
+// // // console.log(Object.hasOwn(nitin,'name'))
+// // console.log(Object.hasOwn(nitin,'checkin'))
+// // console.log("checkin" in nitin )
+
+
