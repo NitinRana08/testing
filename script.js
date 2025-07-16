@@ -1281,3 +1281,14 @@
 // // console.log("checkin" in nitin )
 
 
+const price = [1,2,3,4,5]
+const doprice = price.toSorted((a,b)=>a-b)
+console.log(doprice)
+console.log(price)
+
+const prices = [999, 499, 1999, 1499];
+
+const sortedPrices = prices.toSorted((a, b) => a - b);
+
+console.log(sortedPrices); // [499, 999, 1499, 1999]
+console.log(prices);  
