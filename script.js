@@ -1299,4 +1299,26 @@
 // console.log(RW)
 // console.log(workout)
 
-console.log("hello agian")
+// console.log("hello agian")
+
+// const member = [
+//     {name: 'nitin rana' , membership: 'gold' },
+//     {name: 'nitin rana' , membership: 'gold' },
+//     {name: 'nitin rana' , membership: 'gold' },
+//     {name: 'nitin rana' , membership: 'gold' },
+
+// ]
+// const New = Array.prototype.groupBy.Call(member, hello => hello.membership )
+// console.log(New)
+
+
+const members = [
+  { name: "Nitin", type: "Gold" },
+  { name: "Raj", type: "Silver" },
+  { name: "Aryan", type: "Gold" },
+  { name: "Vivek", type: "Bronze" }
+];
+
+const grouped = Array.prototype.groupBy.call(members, member => member.type);
+
+console.log(grouped);
