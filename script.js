@@ -1356,18 +1356,34 @@
 
 
 
-function GymMember(name, membershipType, joinDate) {
-  this.name = name;
-  this.membershipType = membershipType;
-  this.joinDate = new Date(joinDate); // storing as a Date object
-  this.checkIn = function () {
-    console.log(`${this.name} checked in on ${new Date().toLocaleString()}`);
-  };
+// function GymMember(name, membershipType, joinDate) {
+//   this.name = name;
+//   this.membershipType = membershipType;
+//   this.joinDate = new Date(joinDate); // storing as a Date object
+//   this.checkIn = function () {
+//     console.log(`${this.name} checked in on ${new Date().toLocaleString()}`);
+//   };
+// }
+
+// // Creating members
+// const nitin = new GymMember("Nitin Rana", "Gold", "08-09-2020");
+// const sharad = new GymMember("Sharad Rana", "Silver", "2025-07-10");
+
+// console.log(nitin);
+// nitin.checkIn();
+
+
+function GYM_MEMBER(name, membershiptype, joindate) {
+    this.n = name;
+    this.m = membershiptype;
+    this.joindate = new Date(joindate);
+    this.checkIn = function () {
+        console.log(`${this.name} checked in on ${new Date().toLocaleString()}`);
+    };
 }
 
-// Creating members
-const nitin = new GymMember("Nitin Rana", "Gold", "08-09-2020");
-const sharad = new GymMember("Sharad Rana", "Silver", "2025-07-10");
+let one = new GYM_MEMBER('nitin rana','gold','09-08-2024')
+let second  = new GYM_MEMBER('sharad rana','silver', '02-04-2000')
 
-console.log(nitin);
-nitin.checkIn();
+console.log(one)
+one.checkIn()
