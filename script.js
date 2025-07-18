@@ -14,8 +14,8 @@
 // const addNuber=(a,b,c,...other)=>{
 //     console.log("the extra is this: ",other[2])  
 //     return a+b+c
-    
-   
+
+
 
 // }
 // const ans=addNuber(2,1,3,32,32,3,4)
@@ -86,7 +86,7 @@
 // const mySym = Symbol("key1")
 
 // const nitinKaObj ={
-   
+
 //     name:"nitin",
 //     "full name" : "nitin rana",
 //     [mySym] : "myKey1",
@@ -249,7 +249,7 @@
 
 // async function getWeather() {
 //   const city = document.getElementById("cityInput").value;
-  
+
 //   if (!city) {
 //     alert("Please enter a city name");
 //     return;
@@ -296,14 +296,14 @@
 
 
 // for(const fruit of fruits){
- 
+
 //     console.log(fruit)
 // } 
 
 // const user= 'nitn rana'
 // for(const letternikalo of user){
 //     console.log(letternikalo)
-   
+
 // }
 //  console.log(user)
 
@@ -317,10 +317,10 @@
 
 // let arr = [4,5,6,7]
 // let a = arr.map((value)=>{
-    
+
 //     // console.log(value)
 //     return value + 1
-    
+
 // })
 // console.log(a)
 
@@ -338,7 +338,7 @@
 // //         return v
 // //     }
 // // }) 
-    
+
 
 // let ans= l.reduce((total,v,i)=> total+v)
 // console.log(ans)
@@ -950,7 +950,7 @@
 
 // setTimeout(() => {
 //     console.log("heloo")
-    
+
 // }, 5000);
 
 
@@ -1092,7 +1092,7 @@
 // [;piouytr5e4w3q2    1AESRWAQ    `Q``]
 // // console.log(add("so your answer is this ",2,1))
 
- 
+
 
 // function Person(fname,lname,contact){
 //     this.firstname = fname
@@ -1117,7 +1117,7 @@
 //         // console.log(this.name,this.lastname)
 //        return `${this.name} ${this.lastname}`
 //     }
-  
+
 //     }
 
 
@@ -1134,9 +1134,9 @@
 //         console.log(this.name,this.lastname,this.mark)
 
 //     }
-    
 
-   
+
+
 
 // }
 // console.log(p1)
@@ -1312,13 +1312,25 @@
 // console.log(New)
 
 
-const members = [
-  { name: "Nitin", type: "Gold" },
-  { name: "Raj", type: "Silver" },
-  { name: "Aryan", type: "Gold" },
-  { name: "Vivek", type: "Bronze" }
-];
+// const members = [
+//     { name: "Nitin", type: "Gold" },
+//     { name: "Raj", type: "Silver" },
+//     { name: "Aryan", type: "Gold" },
+//     { name: "Vivek", type: "Bronze" }
+// ];
 
-const grouped = Array.prototype.groupBy.call(members, member => member.type);
+// const grouped = Array.prototype.groupBy.call(members, member => member.type);
 
-console.log(grouped);
+// console.log(grouped);
+
+
+const gymmember = [
+    { name: 'nitin rana', type: 'gold' },
+    { name: 'sharad rana', type: 'silver' },
+    { name: 'raj rana', type: 'gold' },
+
+    { name: 'nikhil rana', type: 'bronze' },
+
+]
+const result_BY_group  = Array.prototype.groupBy.call(gymmember,result=>result.type)
+console.log(result_BY_group)
