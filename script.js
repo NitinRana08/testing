@@ -1324,13 +1324,22 @@
 // console.log(grouped);
 
 
-const gymmember = [
-    { name: 'nitin rana', type: 'gold' },
-    { name: 'sharad rana', type: 'silver' },
-    { name: 'raj rana', type: 'gold' },
+// const gymmember = [
+//     { name: 'nitin rana', type: 'gold' },
+//     { name: 'sharad rana', type: 'silver' },
+//     { name: 'raj rana', type: 'gold' },
 
-    { name: 'nikhil rana', type: 'bronze' },
+//     { name: 'nikhil rana', type: 'bronze' },
 
-]
-const result_BY_group  = Array.prototype.groupBy.call(gymmember,result=>result.type)
-console.log(result_BY_group)
+// ]
+// const result_BY_group  = Array.prototype.groupBy.call(gymmember,result=>result.type)
+// // const result = gymmember.groupBy(result => result.type);
+// console.log(result_BY_group)
+
+
+
+const details = {
+    name: "Nitin Rana"
+
+}
+console.log(details)
