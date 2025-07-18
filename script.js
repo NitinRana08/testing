@@ -1337,9 +1337,37 @@
 // console.log(result_BY_group)
 
 
+// const details = {
+//     name: "Nitin Rana",
+//     name: "Nitin Rana",
+//     name: "Nitin Rana",
+//     name: "Nitin Rana"
+// }
+// console.log(details)
+// console.log("hello")
 
-const details = {
-    name: "Nitin Rana"
 
+
+// const nitin = new Date()
+// // console.log(nitin)
+
+
+// console.log(nitin.toLocaleString());
+
+
+
+function GymMember(name, membershipType, joinDate) {
+  this.name = name;
+  this.membershipType = membershipType;
+  this.joinDate = new Date(joinDate); // storing as a Date object
+  this.checkIn = function () {
+    console.log(`${this.name} checked in on ${new Date().toLocaleString()}`);
+  };
 }
-console.log(details)
+
+// Creating members
+const nitin = new GymMember("Nitin Rana", "Gold", "08-09-2020");
+const sharad = new GymMember("Sharad Rana", "Silver", "2025-07-10");
+
+console.log(nitin);
+nitin.checkIn();
