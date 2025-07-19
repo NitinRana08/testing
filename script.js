@@ -1348,11 +1348,11 @@
 
 
 
-// const nitin = new Date()
+// const nitinn = new Date()
 // // console.log(nitin)
 
 
-// console.log(nitin.toLocaleString());
+// console.log(nitinn.toLocaleString());
 
 
 
@@ -1373,17 +1373,29 @@
 // nitin.checkIn();
 
 
-function GYM_MEMBER(name, membershiptype, joindate) {
-    this.n = name;
-    this.m = membershiptype;
-    this.joindate = new Date(joindate);
-    this.checkIn = function () {
-        console.log(`${this.name} checked in on ${new Date().toLocaleString()}`);
-    };
-}
+// function GYM_MEMBER(name, membershiptype, joindate) {
+//     this.n = name;
+//     this.m = membershiptype;
+//     this.joindate = new Date(joindate);
+//     this.checkIn = function () {
+//         console.log(`${this.name} checked in on ${new Date().toLocaleString()}`);
+//     };
+// }
 
-let one = new GYM_MEMBER('nitin rana','gold','09-08-2024')
-let second  = new GYM_MEMBER('sharad rana','silver', '02-04-2000')
+// let one = new GYM_MEMBER('nitin rana','gold','09-08-2024')
+// let second  = new GYM_MEMBER('sharad rana','silver', '02-04-2000')
 
-console.log(one)
-one.checkIn()
+// console.log(one)
+// one.checkIn()
+
+//record-obj-#{} and tuples-array = #[] -- cant change the value
+// const rec1 = #{ name: "nitin", age: 22 };
+
+
+
+//end thank you
+
+console.log("hello again")
+
+
+
